@@ -15,6 +15,10 @@ app.use("/urls", require("./Routes/Urls"))
 app.use("/users", require("./Routes/Users"))
 app.set("view engine", "ejs")
 
+app.get("*", (req, res)=>{
+    res.json(404).send({message:"Route not found"})    
+))
+
 app.listen(process.env.PORT, (err) => {
     if (!err) {
         console.log(`Server is running on  http://localhost:${process.env.PORT}`)
