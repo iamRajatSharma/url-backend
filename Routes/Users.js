@@ -1,5 +1,4 @@
 const express = require("express")
-const Joi = require("joi")
 const router = express.Router()
 require("dotenv").config()
 require("../DB/Conn")
