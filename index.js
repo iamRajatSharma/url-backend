@@ -17,7 +17,7 @@ app.set("view engine", "ejs")
 
 app.get("*", (req, res)=>{
     res.json(404).send({message:"Route not found"})    
-))
+})
 
 app.listen(process.env.PORT, (err) => {
     if (!err) {
