@@ -6,7 +6,7 @@ var bodyParser = require('body-parser')
 require("dotenv").config()
 require("./DB/Conn")
 
-mongoose.set('strictQuery', true);
+// mongoose.set('strictQuery', true);
 
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }));
