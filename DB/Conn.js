@@ -11,7 +11,7 @@
 // })
 const mongoose = require('mongoose')
 
-const url = `mongodb+srv://rajat:HuIdst4OQhwfZmkJ@cluster0.6wrjo.mongodb.net/?retryWrites=true&w=majority`;
+const url = `mongodb+srv://rajat:12345@cluster0.6wrjo.mongodb.net/url-shortener?retryWrites=true&w=majority`;
 
 const connectionParams = {
     // useNewUrlParser: true,
